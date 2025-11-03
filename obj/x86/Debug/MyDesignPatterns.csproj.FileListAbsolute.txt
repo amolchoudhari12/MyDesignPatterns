@@ -1,0 +1,10 @@
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\bin\Debug\MyDesignPatterns.exe
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\bin\Debug\MyDesignPatterns.pdb
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Debug\MyDesignPatterns.exe
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Debug\MyDesignPatterns.pdb
+F:\backups\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Debug\MyDesignPatterns.exe
+F:\backups\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Debug\MyDesignPatterns.pdb
+F:\backups\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\backups\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\bin\Debug\MyDesignPatterns.exe
+F:\backups\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\bin\Debug\MyDesignPatterns.pdb

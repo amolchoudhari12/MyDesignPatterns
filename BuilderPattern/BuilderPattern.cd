@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyDesignPatterns.BuilderPattern.HouseBuilder" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAgAAAAAAAAAAAAAAAAAAAAAAAEIAAAAIAAA=</HashCode>
+      <FileName>BuilderPattern\Builder\HouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.BuilderPattern.Builder.ApartmentBuilder" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>BuilderPattern\Builder\ApartmentBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.BuilderPattern.Builder.BunglowBuilder" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>BuilderPattern\Builder\BunglowBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.BuilderPattern.Builder.PentHouseBuilder" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>BuilderPattern\Builder\PentHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.BuilderPattern.Builder.RowHouseBuilder" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>BuilderPattern\Builder\RowHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.BuilderPattern.Developer">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuilderPattern\Director\Developer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.BuilderPattern.House" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAACAAAAAAQAAEAEAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>BuilderPattern\Product\House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MyDesignPatterns.BuilderPattern.HouseType" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQBAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuilderPattern\Product\HouseType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

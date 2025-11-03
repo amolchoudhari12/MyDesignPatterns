@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyDesignPatterns.ChainOfResponsibility.AbstractSupport" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAE=</HashCode>
+      <FileName>ChainOfResponsibility\Hanlders\AbstractSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.ChainOfResponsibility.Hanlders.FirstLineSupport" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\Hanlders\FirstLineSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.ChainOfResponsibility.Hanlders.SecondLineSupport" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\Hanlders\SecondLineSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.ChainOfResponsibility.Hanlders.ThirdLineSupport" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\Hanlders\ThirdLineSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.ChainOfResponsibility.SupportRequest" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\ProcessData\SupportRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MyDesignPatterns.ChainOfResponsibility.RequestStatusEnum" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAACCAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ChainOfResponsibility\ProcessData\RequestStatusEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

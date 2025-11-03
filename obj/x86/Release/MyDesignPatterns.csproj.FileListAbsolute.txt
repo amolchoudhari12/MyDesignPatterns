@@ -1,0 +1,5 @@
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\bin\Release\MyDesignPatterns.exe
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\bin\Release\MyDesignPatterns.pdb
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Release\MyDesignPatterns.exe
+F:\Amol_1.0\MyDeisgnPatterns\MyDesignPatterns\MyDesignPatterns\obj\x86\Release\MyDesignPatterns.pdb

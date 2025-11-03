@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyDesignPatterns.AbstractFactory.BuildHouseFactory">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildHouse\BuildHouseFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.CheapHouseDetails">
+    <Position X="0.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildHouse\CheapHouseDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.ExpensiveHouseDetails">
+    <Position X="2.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildHouse\ExpensiveHouseDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.BuildingStructure" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildingsDetails\BuildingStructure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.Land" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildingsDetails\Land.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.LandInCityArea">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildingsDetails\LandInCityArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.LandInRuralArea">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildingsDetails\LandInRuralArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.MultiStoryApartments">
+    <Position X="9.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildingsDetails\MultiStoryApartments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.SingleStoryApartments">
+    <Position X="7.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\BuildingsDetails\SingleStoryApartments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AbstractFactory.RealEstateClient">
+    <Position X="1.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\RealEstateClient\RealEstateClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

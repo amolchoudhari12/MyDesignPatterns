@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1E1829B-53E9-4623-B110-EAFD523483C3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyDesignPatterns</RootNamespace>
+    <AssemblyName>MyDesignPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractFactory\BuildHouse\BuildHouseFactory.cs" />
+    <Compile Include="AbstractFactory\BuildHouse\CheapHouseDetails.cs" />
+    <Compile Include="AbstractFactory\BuildHouse\ExpensiveHouseDetails.cs" />
+    <Compile Include="AbstractFactory\BuildingsDetails\BuildingStructure.cs" />
+    <Compile Include="AbstractFactory\BuildingsDetails\Land.cs" />
+    <Compile Include="AbstractFactory\BuildingsDetails\LandInCityArea.cs" />
+    <Compile Include="AbstractFactory\BuildingsDetails\LandInRuralArea.cs" />
+    <Compile Include="AbstractFactory\BuildingsDetails\MultiStoryApartments.cs" />
+    <Compile Include="AbstractFactory\BuildingsDetails\SingleStoryApartments.cs" />
+    <Compile Include="AbstractFactory\RealEstateClient\RealEstateClient.cs" />
+    <Compile Include="AdapterPattern\Adaptee\ReadProperty.cs" />
+    <Compile Include="AdapterPattern\Adapter\RequestManagerAdapter.cs" />
+    <Compile Include="AdapterPattern\Adapter\RequestMapperAdapater.cs" />
+    <Compile Include="AdapterPattern\Target\DTOCommand.cs" />
+    <Compile Include="AdapterPattern\Target\ReadPropertiesRequest.cs" />
+    <Compile Include="AdapterPattern\DataClasses\BACnetObjectIdentifierDTO.cs" />
+    <Compile Include="AdapterPattern\DataClasses\ObjectIdentifier.cs" />
+    <Compile Include="BridgePattern\Abstraction\IImageProcessor.cs" />
+    <Compile Include="BridgePattern\Abstraction\ImageProcessor.cs" />
+    <Compile Include="BridgePattern\Abstraction\OSType.cs" />
+    <Compile Include="BridgePattern\Implementor\IImageImplementer.cs" />
+    <Compile Include="BridgePattern\Implementor\LinuxImageImaplementor.cs" />
+    <Compile Include="BridgePattern\Implementor\MACImageImaplementor.cs" />
+    <Compile Include="BridgePattern\Implementor\WindowsImageImplementor.cs" />
+    <Compile Include="BuilderPattern\Builder\ApartmentBuilder.cs" />
+    <Compile Include="BuilderPattern\Builder\BunglowBuilder.cs" />
+    <Compile Include="BuilderPattern\Builder\HouseBuilder.cs" />
+    <Compile Include="BuilderPattern\Builder\PentHouseBuilder.cs" />
+    <Compile Include="BuilderPattern\Builder\RowHouseBuilder.cs" />
+    <Compile Include="BuilderPattern\Director\Developer.cs" />
+    <Compile Include="BuilderPattern\Product\House.cs" />
+    <Compile Include="BuilderPattern\Product\HouseType.cs" />
+    <Compile Include="ChainOfResponsibility\Hanlders\AbstractSupport.cs" />
+    <Compile Include="ChainOfResponsibility\Hanlders\FirstLineSupport.cs" />
+    <Compile Include="ChainOfResponsibility\Hanlders\SecondLineSupport.cs" />
+    <Compile Include="ChainOfResponsibility\Hanlders\ThirdLineSupport.cs" />
+    <Compile Include="ChainOfResponsibility\ProcessData\RequestStatusEnum.cs" />
+    <Compile Include="ChainOfResponsibility\ProcessData\SupportRequest.cs" />
+    <Compile Include="CommandPattern\Command\Command.cs" />
+    <Compile Include="CommandPattern\Command\CookCommand.cs" />
+    <Compile Include="CommandPattern\Invoker\Waiter.cs" />
+    <Compile Include="CommandPattern\Receiver\ChiniesCook.cs" />
+    <Compile Include="CommandPattern\Receiver\ItalianCook.cs" />
+    <Compile Include="CommandPattern\Receiver\IndianCook.cs" />
+    <Compile Include="CommandPattern\Receiver\Receiver.cs" />
+    <Compile Include="CompositePattern\Component\XMLNodeComponent.cs" />
+    <Compile Include="CompositePattern\Composite\CompositeXMLNode.cs" />
+    <Compile Include="CompositePattern\Leaf\LeafXMLNode.cs" />
+    <Compile Include="FactoryPattern\Creator\FastFoods.cs" />
+    <Compile Include="FactoryPattern\Creator\FoodFactory.cs" />
+    <Compile Include="FactoryPattern\Creator\OraganicFoods.cs" />
+    <Compile Include="FactoryPattern\Product\BoiledPalak.cs" />
+    <Compile Include="FactoryPattern\Product\BoiledRice.cs" />
+    <Compile Include="FactoryPattern\Product\Bread.cs" />
+    <Compile Include="FactoryPattern\Product\DalTadka.cs" />
+    <Compile Include="FactoryPattern\Product\FigerFries.cs" />
+    <Compile Include="FactoryPattern\Product\Food.cs" />
+    <Compile Include="FactoryPattern\Product\MethiSubji.cs" />
+    <Compile Include="FactoryPattern\Product\Sause.cs" />
+    <Compile Include="IteratorPattern\Aggregate\Aggregate.cs" />
+    <Compile Include="IteratorPattern\Aggregate\ConcreateAggregate.cs" />
+    <Compile Include="IteratorPattern\Iterator\ConcreateIterator.cs" />
+    <Compile Include="IteratorPattern\Iterator\Iterator.cs" />
+    <Compile Include="MediatorPattern\Colleague\AirCraft.cs" />
+    <Compile Include="MediatorPattern\Colleague\ChartredAirCraft.cs" />
+    <Compile Include="MediatorPattern\Colleague\LuguageAirCraft.cs" />
+    <Compile Include="MediatorPattern\Colleague\PassengerAirCraft .cs" />
+    <Compile Include="MediatorPattern\Mediator\AirCraftController.cs" />
+    <Compile Include="MediatorPattern\Mediator\ShivajiTerminalAirport.cs" />
+    <Compile Include="MementoPattern\CareTaker\RowMemory.cs" />
+    <Compile Include="MementoPattern\Memento\RowMemento.cs" />
+    <Compile Include="MementoPattern\Originator\GridRow.cs" />
+    <Compile Include="ObserverPattern\Observer\IPropertySeeker.cs" />
+    <Compile Include="ObserverPattern\Observer\PropertySeeker.cs" />
+    <Compile Include="ObserverPattern\Subject\PropertiesInMumbai.cs" />
+    <Compile Include="ObserverPattern\Subject\PropertiesInBanglore.cs" />
+    <Compile Include="ObserverPattern\Subject\ListedProperty.cs" />
+    <Compile Include="ObserverPattern\Subject\PropertiesInPune.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypePattern\DropDownList\DropDownItem.cs" />
+    <Compile Include="PrototypePattern\DropDownList\LocationDropDowns.cs" />
+    <Compile Include="PrototypePattern\Prototype\ClonePrototype.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="StatePattern\Context\Car.cs" />
+    <Compile Include="StatePattern\SpeedState\FasterState.cs" />
+    <Compile Include="StatePattern\SpeedState\NormalState.cs" />
+    <Compile Include="StatePattern\SpeedState\SlowerState.cs" />
+    <Compile Include="StatePattern\SpeedState\StoppedState.cs" />
+    <Compile Include="StatePattern\SpeedState\WarningState.cs" />
+    <Compile Include="StatePattern\State\State.cs" />
+    <Compile Include="StrategyPattern\TranslateContext\TranslatorContext.cs" />
+    <Compile Include="StrategyPattern\TranslateStrategy\TranslateStrategy.cs" />
+    <Compile Include="StrategyPattern\Translators\HindiTranslator.cs" />
+    <Compile Include="StrategyPattern\Translators\MarathiTranslator.cs" />
+    <Compile Include="StrategyPattern\Translators\EnglishTranslator.cs" />
+    <Compile Include="TemplatePattern\Concretes\HindiConverter.cs" />
+    <Compile Include="TemplatePattern\Concretes\MarathiConverter.cs" />
+    <Compile Include="TemplatePattern\Templates\LanguageConversion.cs" />
+    <Compile Include="VisitorPattern\Agent\HouseHoldAgent.cs" />
+    <Compile Include="VisitorPattern\Worker\ClothWasher.cs" />
+    <Compile Include="VisitorPattern\Worker\DishWasher.cs" />
+    <Compile Include="VisitorPattern\Customers\Customer.cs" />
+    <Compile Include="VisitorPattern\Customers\EliteCustomer.cs" />
+    <Compile Include="VisitorPattern\Customers\FraudCustomer.cs" />
+    <Compile Include="VisitorPattern\IAcceptWorkingTerms.cs" />
+    <Compile Include="VisitorPattern\IWork.cs" />
+    <Compile Include="VisitorPattern\Customers\MediumCustomer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AbstractFactory\AbstractFactory.cd" />
+    <None Include="AdapterPattern\AdapterPattern.cd" />
+    <None Include="BuilderPattern\BuilderPattern.cd" />
+    <None Include="ChainOfResponsibility\ChainOfResponsibility.cd" />
+    <None Include="FactoryPattern\FactoryPattern.cd" />
+    <None Include="PrototypePattern\PrototypePattern.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

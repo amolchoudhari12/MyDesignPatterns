@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyDesignPatterns.FactoryPattern.FastFoods" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Creator\FastFoods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.OraganicFoods" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Creator\OraganicFoods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.FoodFactory" Collapsed="true">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Creator\FoodFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.Food" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\Food.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.BoiledPalak" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\BoiledPalak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.BoiledRice" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\BoiledRice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.Bread" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\Bread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.DalTadka" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\DalTadka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.FigerFries" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\FigerFries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.MethiSubji" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\MethiSubji.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.FactoryPattern.Sause" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Product\Sause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

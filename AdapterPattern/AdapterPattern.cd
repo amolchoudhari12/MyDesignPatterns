@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyDesignPatterns.AdapterPattern.ReadProperty" Collapsed="true">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdapterPattern\Adaptee\ReadProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AdapterPattern.RequestManagerAdapter" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>AdapterPattern\Adapter\RequestManagerAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AdapterPattern.RequestMapperAdapater&lt;T, E&gt;" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>AdapterPattern\Adapter\RequestMapperAdapater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AdapterPattern.BACnetObjectIdentifierDTO" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAAAAA=</HashCode>
+      <FileName>AdapterPattern\DataClasses\BACnetObjectIdentifierDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AdapterPattern.ObjectIdentifier" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACAAAAAA=</HashCode>
+      <FileName>AdapterPattern\DataClasses\ObjectIdentifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AdapterPattern.DTOCommand" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdapterPattern\Target\DTOCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyDesignPatterns.AdapterPattern.ReadPropertiesRequest" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdapterPattern\Target\ReadPropertiesRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MyDesignPatterns.AdapterPattern.ObjectType" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>AdapterPattern\DataClasses\ObjectIdentifier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

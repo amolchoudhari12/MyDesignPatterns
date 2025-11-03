@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace MyDesignPatterns.MementoPattern
+{
+    public class RowMemory
+    {
+        public RowMemento RowMemento { get; set; }
+    }
+}
