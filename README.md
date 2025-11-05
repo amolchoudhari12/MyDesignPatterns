@@ -145,7 +145,7 @@ This project reflects that philosophy by:
 ## 👨‍💻 Author
 
 **Amol Choudhari**  
-*Software Architect & CEO*  
+*Software Architect*  
 Building sustainable SaaS architectures that last decades.  
 Driven by a passion for elegant system design, reusability, and knowledge preservation.
 
